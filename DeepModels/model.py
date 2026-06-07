@@ -30,6 +30,7 @@ print("Using:", device)
 
 rows = []
 
+
 for file in pl.Path("../dataset").glob("*.txt"):
 
     year = int(file.name[:4])
